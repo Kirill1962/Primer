@@ -1,0 +1,15 @@
+var str1 = prompt('Введите свое имя');
+var str2 = +prompt('Сколько вам лет ?');
+var str3 = +prompt('5 + 5 = ?');
+var str4 = +prompt('10 - 5 = ?');
+var str5 = +prompt('10 * 5 = ?');
+var str6 = +prompt('10 / 5 = ?');
+var str7 = +prompt('10 % 55 = ?');
+alert('Переидите в кансоль');
+console.log(str1);
+console.log(str2);
+console.log('5 + 5 = 10' + ' Ваш ответ ' + (str3));
+console.log('10 - 5 = 5' + ' Ваш ответ ' + (str4));
+console.log('10 * 5 = 50' + ' Ваш ответ ' + (str5));
+console.log('10 / 5 = 2' + ' Ваш ответ ' + (str6));
+console.log('10 % 55 = 5' + ' Ваш ответ ' + (str7));
